@@ -10,8 +10,8 @@ import SwiftUI
 struct SliderSwiftView: View {
     
    @State var red = 0.0
-    @State  var green = 0.0
-    @State   var blue = 0.0
+    @State   var green = 0.0
+    @State var blue = 0.0
     
     
     
@@ -25,15 +25,29 @@ struct SliderSwiftView: View {
                 .font(.largeTitle)
             Image(systemName: "gamecontroller.fill")
                 .font(.largeTitle)
-                .foregroundColor(Color(red: red, green: green, blue: blue))
+                .foregroundColor(Color(red: red, green: green, blue: blue, opacity: 1.0))
+            
             HStack{
-//                Circle()
-//                    .frame(width: 30, height: 30, alignment: .center)
-                ReusableCircleView(circleColor: .green)
-                Slider(value: $red, in: 0...1, step: 0.01)
+//                ReusableCircleView(circleColor: .red)
+//                ReusableSliderView(sliderColor: $red)
+                CirclWithSliderView(color: .red, bindingColor: $red)
+                
+                
+            }.padding()
+           
+            HStack{
+//                ReusableCircleView(circleColor: .green)
+//                ReusableSliderView(sliderColor: $green)
+                CirclWithSliderView(color: .green, bindingColor: $green)
+                
             }.padding()
             
-            
+            HStack{
+//                ReusableCircleView(circleColor: .blue)
+//                ReusableSliderView(sliderColor: $blue)
+                CirclWithSliderView(color: .blue, bindingColor: $blue)
+                
+            }.padding()
             
         }
         
