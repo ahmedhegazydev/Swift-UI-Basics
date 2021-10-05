@@ -13,6 +13,8 @@
 		0051FA77270C5E1A009C2BD4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0051FA76270C5E1A009C2BD4 /* Preview Assets.xcassets */; };
 		0051FA7F270C8019009C2BD4 /* LinkedInChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0051FA7E270C8019009C2BD4 /* LinkedInChallengeView.swift */; };
 		0051FA81270C866F009C2BD4 /* GetTxtInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0051FA80270C866F009C2BD4 /* GetTxtInputView.swift */; };
+		0051FA83270C8912009C2BD4 /* SliderSwiftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0051FA82270C8912009C2BD4 /* SliderSwiftView.swift */; };
+		0051FA85270C95BE009C2BD4 /* ReusableCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0051FA84270C95BE009C2BD4 /* ReusableCircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0051FA78270C5E1A009C2BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0051FA7E270C8019009C2BD4 /* LinkedInChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedInChallengeView.swift; sourceTree = "<group>"; };
 		0051FA80270C866F009C2BD4 /* GetTxtInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTxtInputView.swift; sourceTree = "<group>"; };
+		0051FA82270C8912009C2BD4 /* SliderSwiftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderSwiftView.swift; sourceTree = "<group>"; };
+		0051FA84270C95BE009C2BD4 /* ReusableCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableCircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +64,11 @@
 				0051FA7E270C8019009C2BD4 /* LinkedInChallengeView.swift */,
 				0051FA80270C866F009C2BD4 /* GetTxtInputView.swift */,
 				0051FA71270C5E16009C2BD4 /* ContentView.swift */,
+				0051FA82270C8912009C2BD4 /* SliderSwiftView.swift */,
 				0051FA73270C5E1A009C2BD4 /* Assets.xcassets */,
 				0051FA78270C5E1A009C2BD4 /* Info.plist */,
 				0051FA75270C5E1A009C2BD4 /* Preview Content */,
+				0051FA84270C95BE009C2BD4 /* ReusableCircleView.swift */,
 			);
 			path = SwiftUiBasics;
 			sourceTree = "<group>";
@@ -148,6 +154,8 @@
 				0051FA72270C5E16009C2BD4 /* ContentView.swift in Sources */,
 				0051FA70270C5E16009C2BD4 /* SwiftUiBasicsApp.swift in Sources */,
 				0051FA81270C866F009C2BD4 /* GetTxtInputView.swift in Sources */,
+				0051FA83270C8912009C2BD4 /* SliderSwiftView.swift in Sources */,
+				0051FA85270C95BE009C2BD4 /* ReusableCircleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
