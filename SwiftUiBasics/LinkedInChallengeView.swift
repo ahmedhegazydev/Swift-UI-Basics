@@ -14,6 +14,8 @@ struct LinkedInChallengeView: View {
             HStack{
                 Image(systemName: "gamecontroller.fill")
                     .foregroundColor(.green)
+                    .font(.largeTitle)
+                
                 Text("SoSo hola")
                     .font(.title)
             }

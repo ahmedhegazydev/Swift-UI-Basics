@@ -12,7 +12,9 @@ struct SwiftUiBasicsApp: App {
     var body: some Scene {
         WindowGroup {
 //            ContentView()
-            LinkedInChallengeView()
+//            LinkedInChallengeView()
+            GetTxtInputView()
+            
         }
     }
 }
