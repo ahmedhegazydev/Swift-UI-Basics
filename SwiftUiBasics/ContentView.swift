@@ -9,8 +9,28 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+            Text("Hello, world!")
+            Text("Hello, world!")
+            
+            HStack{
+//                Image("hegzo")
+                Image(systemName: "gamecontroller.fill")
+                    .foregroundColor(.green)
+                
+            
+                Text("Hello, world!")
+                Text("Hello, world!")
+            }
+//            .padding(.bottom, /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+            .padding(30)
+            
+            
+            Text("Hello, world!")
+            Text("Hello, world!")
+                .font(.largeTitle)
+            
+        }
     }
 }
 
