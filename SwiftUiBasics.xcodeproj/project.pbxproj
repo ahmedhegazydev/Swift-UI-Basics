@@ -20,6 +20,7 @@
 		0051FA8C270CA356009C2BD4 /* TableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0051FA8B270CA356009C2BD4 /* TableData.swift */; };
 		0051FA8F270CA3FB009C2BD4 /* NavigationExpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0051FA8E270CA3FB009C2BD4 /* NavigationExpView.swift */; };
 		0051FA91270CA96A009C2BD4 /* NavDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0051FA90270CA96A009C2BD4 /* NavDetailsView.swift */; };
+		0051FA94270CAD37009C2BD4 /* SheetPopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0051FA93270CAD36009C2BD4 /* SheetPopoverView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		0051FA8B270CA356009C2BD4 /* TableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableData.swift; sourceTree = "<group>"; };
 		0051FA8E270CA3FB009C2BD4 /* NavigationExpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationExpView.swift; sourceTree = "<group>"; };
 		0051FA90270CA96A009C2BD4 /* NavDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavDetailsView.swift; sourceTree = "<group>"; };
+		0051FA93270CAD36009C2BD4 /* SheetPopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetPopoverView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		0051FA6E270C5E16009C2BD4 /* SwiftUiBasics */ = {
 			isa = PBXGroup;
 			children = (
+				0051FA92270CAD0E009C2BD4 /* Sheets */,
 				0051FA8D270CA3DF009C2BD4 /* Navigation */,
 				0051FA8A270CA347009C2BD4 /* Data */,
 				0051FA6F270C5E16009C2BD4 /* SwiftUiBasicsApp.swift */,
@@ -110,6 +113,14 @@
 				0051FA90270CA96A009C2BD4 /* NavDetailsView.swift */,
 			);
 			path = Navigation;
+			sourceTree = "<group>";
+		};
+		0051FA92270CAD0E009C2BD4 /* Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				0051FA93270CAD36009C2BD4 /* SheetPopoverView.swift */,
+			);
+			path = Sheets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0051FA94270CAD37009C2BD4 /* SheetPopoverView.swift in Sources */,
 				0051FA8F270CA3FB009C2BD4 /* NavigationExpView.swift in Sources */,
 				0051FA7F270C8019009C2BD4 /* LinkedInChallengeView.swift in Sources */,
 				0051FA91270CA96A009C2BD4 /* NavDetailsView.swift in Sources */,
